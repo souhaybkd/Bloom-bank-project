@@ -1,0 +1,23 @@
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form-toggle {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.form-toggle:hover {
+    background-color: lightgray;
+}
+
+.form-toggle.selected {
+    background-color: lightgray;
+    color: white;
+}
